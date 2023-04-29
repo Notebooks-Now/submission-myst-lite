@@ -17,5 +17,6 @@ jobs:
         env:
           CURVENOTE_TOKEN: ${{ secrets.CURVENOTE_TOKEN }}
         with:
+          latex_packages: apacite calc color graphicx ifthen indentfirst lineno morefloats ragged2e rotating soul trackchanges url xcolor
           preview: true
           preview_domain: my-domain-preview.curve.space
