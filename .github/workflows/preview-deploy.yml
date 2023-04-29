@@ -19,4 +19,4 @@ jobs:
         with:
           latex_packages: apacite lineno morefloats ragged2e soul
           preview: false
-          preview_domain: my-domain-preview.curve.space
+          preview_subdomain: franklin-preview
