@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy 🚀
-        uses: curvenote/action-myst-publish
+        uses: curvenote/action-myst-publish@main
         with:
           preview: true
           preview_domain: my-domain-preview.curve.space
