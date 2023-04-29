@@ -46,3 +46,6 @@ project:
       keypoint_3: They are specific to this PDF template, so they will not appear in other exports
       journal_name: Notebooks Now!
       draft: false
+site:
+  domains:
+    - franklin-nn-lite.curve.space
