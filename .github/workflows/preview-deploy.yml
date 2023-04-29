@@ -1,0 +1,19 @@
+name: deploy-myst-site
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+permissions:
+  contents: write
+jobs:
+  build-and-deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy 🚀
+        uses: curvenote/action-myst-publish
+        with:
+          preview: true
+          preview_domain: my-domain-preview.curve.space
