@@ -1,9 +1,9 @@
 # See docs at: https://myst-tools.org/docs/mystjs/frontmatter
 version: 1
 project:
-  title: |-
-    Title will be pulled directly from the first header of the article
-    or you can specify title in the page frontmatter of the article
+  # Title will be pulled directly from the first header of the article
+  # or you can specify title in the page frontmatter of the article
+  title: Notebooks Now! MyST Submission Template (full)
   authors:
     - name: Steve Purves
       orcid: 0000-0002-0760-5497
