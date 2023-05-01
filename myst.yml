@@ -46,4 +46,4 @@ site:
       url: https://data.agu.org/notebooks-now/
   template: book-theme
   domains:
-    - franklin-nn_lite.curve.space
+    - franklin-notebooks_now_myst_lite.curve.space
