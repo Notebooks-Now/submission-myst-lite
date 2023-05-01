@@ -47,5 +47,8 @@ project:
       journal_name: Notebooks Now!
       draft: false
 site:
+  projects:
+    - path: '.'
+      slug: 'submission-myst-lite'
   domains:
     - franklin-nn-lite.curve.space
