@@ -33,8 +33,17 @@ project:
     - Earthquakes
   date: 2022-05-11
 site:
+  title: La Palma Seismicity 2021
+  logo_text: La Palma Seismicity 2021
   projects:
-    - path: '.'
-      slug: 'submission-myst-lite'
+    - slug: agu
+      path: .
+  nav:
+    - title: MyST Docs
+      url: https://myst-tools.org/docs/mystjs
+  actions:
+    - title: Notebooks Now!
+      url: https://data.agu.org/notebooks-now/
+  template: book-theme
   domains:
     - franklin-nn_lite.curve.space
