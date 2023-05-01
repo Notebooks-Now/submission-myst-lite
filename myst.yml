@@ -51,4 +51,4 @@ site:
     - path: '.'
       slug: 'submission-myst-lite'
   domains:
-    - franklin-nn-lite.curve.space
+    - franklin-nn_lite.curve.space
