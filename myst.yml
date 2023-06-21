@@ -32,6 +32,14 @@ project:
     - La Palma
     - Earthquakes
   date: 2022-05-11
+  requirements:
+    - environment.yml
+  resources:
+    - data/lapalma_ign.csv
+  exports:
+    - format: meca
+      article: article.ipynb
+      output: la-palma-visualization.zip
 site:
   title: La Palma Seismicity 2021
   logo_text: La Palma Seismicity 2021
