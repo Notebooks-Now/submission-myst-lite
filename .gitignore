@@ -4,3 +4,5 @@ _build
 
 la-palma-visualization.*
 files/
+*_pdf_logs/
+*_pdf_tex/
