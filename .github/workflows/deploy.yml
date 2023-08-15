@@ -33,7 +33,20 @@ jobs:
           node-version: 18.x
       - name: Install MyST Markdown
         run: npm install -g mystmd
-      - name: Build HTML Assets
+      - name: Install imagemagick, inkscape, and webp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y inkscape imagemagick webp
+      - name: Install TeX and packages
+        run: |
+          wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+          echo "/home/runner/bin" >> $GITHUB_PATH
+      - name: Install TeX packages
+        run: |
+          tlmgr install apacite lineno morefloats ragged2e soul
+      - name: Build all content (PDF, JATS, MECA)
+        run: myst build --all
+      - name: Build Static HTML Assets
         run: myst build --html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
