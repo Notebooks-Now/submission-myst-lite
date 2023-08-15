@@ -2,7 +2,7 @@
 *.eps
 _build
 
-la-palma-visualization.*
+meca.zip
 files/
 *_pdf_logs/
 *_pdf_tex/
