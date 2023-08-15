@@ -27,7 +27,7 @@ Bibliography entries may be specified two ways, both described in the [MyST docs
 
 A `myst.yml` file must be provided to configure notebook metadata and exports. This includes authors, affiliations, licenses, keywords, and [much more](https://mystmd.org/guide/frontmatter).
 
-## Building output artfiacts
+## Building output artifacts
 
 To build PDF/JATS output from your source data, you must have the MyST Markdown CLI installed
 
