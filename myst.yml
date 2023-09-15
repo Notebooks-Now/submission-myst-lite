@@ -6,7 +6,8 @@ project:
   title: La Palma Seismicity 2021
   subtitle: An analysis of earthquake swarms in relation to the 2021 eruption
   authors:
-    - name: Steve Purves
+    - id: spurves
+      name: Steve Purves
       orcid: 0000-0002-0760-5497
       corresponding: true
       email: steve@curvenote.com
@@ -16,19 +17,48 @@ project:
         - Software
         - Visualization
       affiliations:
-        - Curvenote
-    - name: Rowan Cockett
+        - curvenote
+    - id: rcockett
+      name: Rowan Cockett
       orcid: 0000-0002-7859-8394
       corresponding: false
       roles: []
       affiliations:
-        - Curvenote
+        - curvenote
+  affiliations:
+    - id: curvenote
+      name: Curvenote
+      department: Engineering Team
+      address: 123 Main St.
+      city: NYC
+      state: New York
+      postal_code: '10001'
+      country: USA
+      isni: '0000000000000000'
+      url: https://curvenote.com
+      email: support@curvenote.com
+      phone: 123-456-7890
+      fax: 123-456-7891
   github: https://github.com/stevejpurves/ign-earthquake-data
   binder: https://mybinder.org/v2/gh/Notebooks-Now/submission-myst-lite/HEAD?labpath=la-palma-visualization.ipynb
   open_access: true
   license:
     content: CC-BY-SA-4.0
     code: MIT
+  funding:
+    - statement: This work was supported by Notebooks Now! at AGU.
+      open_access: Users are allowed to read, download, copy, distribute, print, search, or link to this template, or use it for any other lawful purpose, without asking prior permission
+      id: agu-0000
+      sources:
+        - id: agu
+          name: American Geophysical Union
+      investigators:
+        - spurves
+        - rcockett
+      recipients:
+        - name: Franklin Koch
+          affiliations:
+            - curvenote
   keywords:
     - La Palma
     - Earthquakes
