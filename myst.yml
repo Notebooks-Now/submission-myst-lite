@@ -78,6 +78,7 @@ project:
     - format: meca
       article: article.ipynb
       output: meca.zip
+  jupyter: true
 site:
   title: La Palma Seismicity 2021
   options:
